@@ -1,7 +1,10 @@
 import React from 'react'
-import { useSelector } from 'react-redux'
-// import CardHome from '../home/CardHome'
-// import './styles/home.css'
+import './styles/home.css'
+import Social from '../home/Social'
+import Data from '../home/Data'
+import ScrollDown from '../home/ScrollDown'
+import '../home/styles/home.css'
+
 
 const Home = () => {
 
@@ -9,17 +12,17 @@ const Home = () => {
 
   return (
     <main className='home'>
-      <h1>Edison</h1>
-      {/* <div className='home__container-card'>
-        {
-          products?.map(product => (
-            <CardHome 
-              key={product.id}
-              product={product}
-            />
-          ))
-        }
-      </div> */}
+     <section className="home section" id="home">
+        <div className="home__container container grid">
+            <div className="home__content grid">
+                <Social/>
+                <div className="home__img"></div>
+                <Data/>
+            </div>
+            <ScrollDown/>
+        </div>
+
+    </section>
     </main>
   )
 }

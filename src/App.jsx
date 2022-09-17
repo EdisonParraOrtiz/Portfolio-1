@@ -6,6 +6,7 @@ import Header from './components/shared/Header'
 import About from './components/routes/About'
 import Projects from './components/routes/Projects'
 import Contact from './components/routes/Contact'
+import './App.css'
 
   function App() {
 

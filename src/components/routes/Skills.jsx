@@ -1,14 +1,22 @@
-import React, { useEffect, useState } from 'react'
+// import axios from 'axios'
+import React,{useEffect, useState} from 'react'
+import Frontend from '../skills/Frontend'
+import Backend from '../skills/Backend'
+import '../skills/styles/skills.css'
 
-const Services = () => {
 
+const Skills = () => {
 
   return (
-    <main className='product-detail'>
-
-     
-    </main>
+    <section className="skills section" id="skills">
+        <h2 className="section__title">  Skills</h2>
+      <span className="section__subtitle">My technical level</span>
+      <div className="skills__container container grid">
+        <Frontend/>
+        <Backend/>
+      </div>
+    </section>
   )
 }
 
-export default Services
+export default Skills
