@@ -6,8 +6,36 @@
     box-shadow:  0px 0px 5px solid gray inset;
     position: relative;
     margin: auto;
-   
+    
   } 
+
+  .container__full{
+    position: absolute;
+    width: 900px;
+    height: 74vh;
+    background-color: rgb(255, 255, 255);
+    border-right: 20px solid black;
+    border-left: 20px solid black;
+    border-bottom: 20px solid black;
+    border-top: none;
+    box-shadow:  0px 0px 5px solid gray inset;
+    left: 40px;
+    top: 40px;
+  }
+
+  .section__title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+  }
+
+  .section__subtitle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+  }
 
 
 .home__container{

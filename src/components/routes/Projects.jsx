@@ -5,9 +5,10 @@ import Header from "../shared/Header";
 const Projects = () => {
   return (
     <div className="container">
-      <Header/>
+      
       <div className="container__full">
-        <section className="projects  section " id="portfolio">
+        <Header/>
+        <section className="projects__section " id="portfolio">
           <h2 className="section__title">Projects</h2>
           <span className="section__subtitle">My personal work</span>
 

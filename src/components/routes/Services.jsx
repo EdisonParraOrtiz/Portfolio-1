@@ -9,8 +9,9 @@ const Services = () => {
   };
   return (
     <div className="container">
-      <Header/>
+      
       <div className="container__full">
+        <Header/>
         <section className="services__section" id="services">
           <h2 className="section__title">Services</h2>
           <span className="section__subtitle">What i offer</span>

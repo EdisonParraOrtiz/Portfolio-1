@@ -16,7 +16,7 @@ const Header = () => {
           <nav className="nav-container">
             <div className={Toggle ? "nav__menu show-menu" : "nav__menu"}>
               <ul className="nav__list">
-                <li className="nav__menu">
+                <li className="header__item">
                   <NavLink
                     className={({ isActive }) =>
                       isActive ? "nav__link  active-Link" : "nav__link"

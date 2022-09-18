@@ -8,12 +8,14 @@ import Header from "../shared/Header";
 const About = () => {
   return (
     <div className="container">
-      <Header/>
+      
       <div className="container__full">
-        <section className="about section" id="about">
+        <Header/>
+        <section className="projects__section" id="about">
+
           <h2 className="section__title"> About Me</h2>
           <span className="section__subtitle">My introduction</span>
-
+        
           <div className="about__container  grid">
             <img src={AboutImg} alt="" className="about__img" />
 

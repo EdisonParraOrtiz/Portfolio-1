@@ -5,9 +5,10 @@ import Header from "../shared/Header";
 const Contact = () => {
   return (
     <div className="container">
-      <Header/>
+      
       <div className="container__full">
-        <section className="contact section" id="contact">
+        <Header/>
+        <section className="contact__section" id="contact">
           <h2 className="section__title"> Get in touch</h2>
           <span className="section__subtitle">Contact me</span>
 

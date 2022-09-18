@@ -8,8 +8,9 @@ import Header from "../shared/Header";
 const Skills = () => {
   return (
     <div className="container">
-      <Header/>
+      
       <div className="container__full">
+      <Header/>
         <section className="skills section" id="skills">
           <h2 className="section__title"> Skills</h2>
           <span className="section__subtitle">My technical level</span>
