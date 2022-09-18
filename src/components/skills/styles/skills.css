@@ -1,5 +1,17 @@
+
+.container{
+    width: 1024px;
+    height: 90vh;
+    background-color: white;
+    border: 20px solid black;
+    box-shadow:  0px 0px 5px solid gray inset;
+    position: relative;
+    margin: auto;
+   
+  } 
+
 .skills__container{
-    grid-template-columns: repeat(2, 350px);
+    display: flex;
     column-gap: 3rem;
     justify-content: center;
 }

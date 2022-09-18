@@ -1,4 +1,21 @@
+
+.container{
+    width: 1024px;
+    height: 90vh;
+    background-color: white;
+    border: 20px solid black;
+    box-shadow:  0px 0px 5px solid gray inset;
+    position: relative;
+    margin: auto;
+   
+  } 
+
 .projects-container{
     display: flex;
     gap: 2rem;
+}
+
+
+.project__imagen{
+  width: 200px;
 }

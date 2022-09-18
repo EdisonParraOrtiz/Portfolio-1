@@ -1,11 +1,24 @@
+
+.container{
+    width: 1024px;
+    height: 90vh;
+    background-color: white;
+    border: 20px solid rgb(255, 255, 255);
+    box-shadow:  0px 0px 5px solid gray inset;
+    position: relative;
+    margin: auto;
+   
+  } 
+
 .about__container{
-    grid-template-columns: repeat(2, 1fr);
+    display: flex;
     align-items: center;
     column-gap: 4rem;
+    padding: 40px;
 }
 
 .about__img{
-    width: 350px;
+    width: 250px;
     border-radius: 1.5rem;
     justify-self: center;
 }
