@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import Social from "../home/Social";
 import "../services/styles/services.css";
 import Header from "../shared/Header";
 
@@ -10,8 +11,9 @@ const Services = () => {
   return (
     <div className="container">
       
-      <div className="container__full">
+      <div className="container__full-services">
         <Header/>
+        <Social/>
         <section className="services__section" id="services">
           <h2 className="section__title">Services</h2>
           <span className="section__subtitle">What i offer</span>

@@ -68,78 +68,7 @@
   top: 465px;
 } */
 
- .home__social {
-  position: relative;
-  height: 200px;
-  display: flex;
-  flex-direction: column;
-  align-items: space-between;
-  justify-content: space-between;
-  gap: 32px;
-  top: 0px;
  
-}  
-
-
-
-.button__content-instagram{
-    position: relative;
-    width: 23px;
-    height: 23px;
-    margin: auto;
-    background-color: rgb(180, 176, 176);
-    border: rgb(180, 176, 176);
-    border-radius: 20px;
-    left: -20px;
-} 
-
-
-.button__content-likendin{
-    position: relative;
-    width: 23px;
-    height: 23px;
-    margin: auto;
-    background-color:  rgb(129, 126, 126);
-    border: rgb(129, 126, 126);
-    border-radius: 20px;
-    left: -20px;
-} 
-
-.button__content-github{
-    position: relative;
-    width: 23px;
-    height: 23px;
-    margin: auto;
-    background-color: rgb(65, 63, 63);
-    border: rgb(65, 63, 63);
-    border-radius: 20px;
-    left: -20px;
-} 
-
-.button__content-facebook{
-    position: relative;
-    width: 23px;
-    height: 23px;
-    margin: auto;
-    background-color: black;
-    border-radius: 20px;
-    left: -20px;
-} 
-
-.home__social-icon{
-    color: white;
-    align-items: center;
-    justify-content: center;
-    
-    
-}
-
-.home__social-icon:hover {
-  color: rgb(43, 205, 245);
-}
-
-
-
 .home__data {
     position: absolute;
     background:url("../../../../public/images/frame-left-03.png");

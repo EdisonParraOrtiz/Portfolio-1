@@ -10,6 +10,30 @@
    
   }  */
 
+  .container__full-contact{
+    position: relative;
+    width: 900px;
+    height: 74vh;
+    background: url("../../../../public/images/background-08-08.png");
+    border-right: 20px solid black;
+    border-left:  20px solid black ; 
+    border-bottom: 20px solid black;
+    border-top: none;
+    box-shadow: 0px 0px 5px solid gray inset;
+    left: 40px;
+    top: 40px;
+  }
+
+  .container__full-contact::before{
+    content: "hola";
+    position: absolute;
+    width: 30px;
+    height: 385px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(248, 248, 248);
+    left: -20px;
+}
+
 
 .contact__container{
     display: flex;

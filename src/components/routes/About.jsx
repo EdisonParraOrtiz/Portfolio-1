@@ -4,6 +4,7 @@ import AboutImg from "../../../public/images/about.jpg";
 import CV from "../../../public/images/John-Cv.pdf";
 import Info from "../About/Info";
 import Header from "../shared/Header";
+import Social from "../home/Social";
 
 const About = () => {
   return (
@@ -11,14 +12,21 @@ const About = () => {
       
       <div className="container__full-about">
         <Header/>
+        <Social />
         <section className="projects__section" id="about">
 
           <h2 className="section__title"> About Me</h2>
           <span className="section__subtitle">My introduction</span>
+
+          
         
           <div className="about__container ">
 
-            <div className="about__img"></div>
+            
+
+            <div className="about__img">
+              <div className="perf-img"></div>
+            </div>
 
             <div className="about__data">
               <Info />

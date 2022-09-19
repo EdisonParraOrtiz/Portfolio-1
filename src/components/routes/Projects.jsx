@@ -1,4 +1,5 @@
 import React from "react";
+import Social from "../home/Social";
 import "../Projects/styles/project.css";
 import Header from "../shared/Header";
 
@@ -6,8 +7,9 @@ const Projects = () => {
   return (
     <div className="container">
       
-      <div className="container__full">
+      <div className="container__full-projects">
         <Header/>
+        <Social/>
         <section className="projects__section " id="portfolio">
           <h2 className="section__title">Projects</h2>
           <span className="section__subtitle">My personal work</span>

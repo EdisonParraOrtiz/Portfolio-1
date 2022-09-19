@@ -10,11 +10,14 @@ const Home = () => {
     <div className="container">
       <div className="container__full-home">
         <Header />
+        <Social />
+        
         <main className="home">
           <section className="home-section" id="home">
             <div className="home__container grid">
               <div className="home__content grid">
-                <Social />
+                
+                
                   
                 {/* </div> */}
                 <Data />

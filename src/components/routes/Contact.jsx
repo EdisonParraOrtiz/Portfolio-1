@@ -1,16 +1,18 @@
 import React, { useEffect, useState } from "react";
 import "../Contact/styles/contact.css";
+import Social from "../home/Social";
 import Header from "../shared/Header";
 
 const Contact = () => {
   return (
     <div className="container">
       
-      <div className="container__full">
+      <div className="container__full-contact">
         <Header/>
+        <Social/>
         <section className="contact__section" id="contact">
-          <h2 className="section__title"> Get in touch</h2>
-          <span className="section__subtitle">Contact me</span>
+          <h2 className="section__title"> Contact me</h2>
+          <span className="section__subtitle">Get in touch me</span>
 
           <div className="contact__container  grid">
             <div className="contac__content">

@@ -1,5 +1,6 @@
 import React from "react";
 import "./styles/home.css";
+import './styles/social.css'
 
 const Social = () => {
   return (
