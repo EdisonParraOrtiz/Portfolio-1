@@ -44,7 +44,7 @@
 
 .skills__content-frontend{
  position: absolute;
- background-color: greenyellow;
+ background: url("../../../../public/images/frame-left-05-05.png");
  background-size: cover;
  width: 255px;
  height: 306px;
@@ -56,12 +56,15 @@
 
 .skills__content-backend{
     position: absolute;
+    background: url("../../../../public/images/frame-right-05--05.png");
+    background-color: rgba(255, 255, 255, 0.7);
+    background-repeat: no-repeat;
     border: 1px solid rgba(0, 0, 0, 0.1);
     width: 255px;
     height: 306px;
     top: 93px;
     right: 70px;
-    background-color: greenyellow;
+
 }
 
 .skills__group{
@@ -90,10 +93,11 @@
   }
 
   .section__subtitle{
+    position: absolute;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: auto;
+    font-size: 16px;
+    left: 350px;
+    top: 80px;
   }
 
   .skills__data{
@@ -131,7 +135,7 @@
   .logo-name-n{
     position: absolute;
     left: 80px;
-    top:  50px;
+    top:  60px;
     width: 300px;
   }
 
@@ -139,7 +143,9 @@
   .logo-name-h i,
   .logo-name-c i,
   .logo-name-r i,
-  .logo-name-j i{
+  .logo-name-j i,
+  .logo-name-n i,
+  .logo-name-m i{
     position: absolute;
     top: 63px;
     left: -45px;
@@ -147,7 +153,10 @@
     .logo-name-h h3,
     .logo-name-c h3,
     .logo-name-r h3,
-    .logo-name-j h3{
+    .logo-name-j h3,
+    .logo-name-n h3,
+    .logo-name-m h3
+    {
         position: absolute;
         top: 40px;
         left: -24px;
@@ -155,30 +164,17 @@
 
 
 
-    .skills__level-h{
+    .skills__level-h,
+    .skills__level-c,
+    .skills__level-j,
+    .skills__level-r,
+    .skills__level-n,
+    .skills__level-m{
         position: absolute;
         top: 80px;
-        left:-24px;
-        background-color: blue;
+        left:-24px;  
     }
-    .skills__level-c{
-        position: absolute;
-        top: 80px;
-        left:-24px;
-        background-color: blue;
-    }
-    .skills__level-j{
-        position: absolute;
-        top: 80px;
-        left:-24px;
-        background-color: blue;
-    }
-    .skills__level-r{
-        position: absolute;
-        top: 80px;
-        left:-24px;
-        background-color: blue;
-    }
+    
 
     
 
