@@ -4,18 +4,18 @@ const Info = () => {
   return (
     <div className="about__info grid">
         <div className="about__box">
-        <i class="uil uil-award"></i>
-            <h3 className="about__title">Experience</h3>
+        <i className="about__icon" class="uil uil-award"></i>
+            <h4 className="about__title">Experience</h4>
             <span className="about__subtitle">1 years working</span>
         </div>
         <div className="about__box">
-        <i class="uil uil-briefcase-alt"></i>
-            <h3 className="about__title">Completed</h3>
+        <i  className="about__icon" class="uil uil-briefcase-alt"></i>
+            <h4 className="about__title">Completed</h4>
             <span className="about__subtitle">10 + Projects</span>
         </div>
         <div className="about__box">
-        <i class="uil uil-cloud-question"></i>
-            <h3 className="about__title">Support</h3>
+        <i   className="about__icon" class="uil uil-cloud-question"></i>
+            <h4 className="about__title">Support</h4>
             <span className="about__subtitle">Online 24/7</span>
         </div>
        

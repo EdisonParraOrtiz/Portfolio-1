@@ -9,26 +9,26 @@ const About = () => {
   return (
     <div className="container">
       
-      <div className="container__full">
+      <div className="container__full-about">
         <Header/>
         <section className="projects__section" id="about">
 
           <h2 className="section__title"> About Me</h2>
           <span className="section__subtitle">My introduction</span>
         
-          <div className="about__container  grid">
-            <img src={AboutImg} alt="" className="about__img" />
+          <div className="about__container ">
+
+            <div className="about__img"></div>
 
             <div className="about__data">
               <Info />
               <p className="about__description">
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                Debitis maiores hic voluptate, ipsam excepturi voluptas fugit
-                quis. Consectetur, odit. Iure sint saepe laudantium sequi facere
-                dolorum? Nihil beatae ipsa placeat.
+                Debitis maiores hic voluptate,  excepturi voluptas fugit
+                quis.
               </p>
 
-              <a download="" href={CV} className="button button--flex">
+              <a download="" href={CV} className="button__flex-1">
                 {" "}
                 Download CV
                 <svg
