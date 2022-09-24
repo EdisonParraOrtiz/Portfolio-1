@@ -28,11 +28,12 @@
   .container__full-skills::before{
     content: "hola";
     position: absolute;
-    width: 30px;
-    height: 385px;
+    width: 40px;
+    height: 400px;
     background-color: rgb(255, 255, 255);
     color: rgb(248, 248, 248);
-    left: -20px;
+    left: -25px;
+    top: -25px;
 }
 
 .skills__container{
@@ -188,7 +189,7 @@
       .container__full-skills {
         position: relative;
         width: 644px;
-        height: 140vh;
+        height: 74vh;
      }
     
      .skills__content-frontend{
