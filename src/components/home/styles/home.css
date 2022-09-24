@@ -302,7 +302,7 @@
   .container {
     position: relative;
     width: 576px;
-    height: 960px
+    height: 850px
   }
 
   .container__full-home {
@@ -349,7 +349,7 @@
   .container {
     position: relative;
     width: 360px;
-    height: 960vh;
+    height: 850;
   }
   .container__full-home {
     position: absolute;
