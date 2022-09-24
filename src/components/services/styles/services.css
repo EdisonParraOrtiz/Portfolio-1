@@ -188,59 +188,123 @@
 
 
 
+@media screen and (max-width: 768px) {
 
-
-@media screen and (max-width: 992px) {
    
-  .services__container{
-    grid-template-columns: repeat(3, 218px);
+  
+  .container__full-services {
+    position: relative;
+    width: 644px;
+    height: 140vh;
+ }
 
-  }
+ .services__content-frontend{
+  width: 255px;
+  height: 306px;
+  left: 182px;
+  top: 93px;
+ }
 
- 
+ .services__content-design{
+  left: 182px;
+  top: 430px;
+  width: 255px;
+  height: 306px;
+ }
+
+ .section__title{
+  left: 260px;
+  top: 50px;
+}
+
+.section__subtitle{
+  left: 260px;
+  top: 80px;
+}
+
 }
 
 /* For medium devices */
-@media screen and (max-width: 768px) {
-
-  .services__container{
-    grid-template-columns: repeat(2, 1fr);
-
-  }
-
-  .services__content{
-    padding: 3.5rem 0.5rem 1.25rem  1.5rem ;
-  }
-  
-  .services__icon{
-    font-size: 1.5rem;
-  }
-}
-
 @media screen and (max-width: 576px) {
 
-  .services__modal-content{
-    padding: 4.5rem 1.5rem 2.5rem ;
+  .container__full-services {
+      position: relative;
+      width: 452px;
+      height: 140vh;
+   }
+  
+   .services__content-frontend{
+    width: 255px;
+    height: 306px;
+    left: 96px;
+    top: 93px;
+   }
+
+   .services__content-design{
+    left: 96px;
+    top: 430px;
+    width: 255px;
+    height: 306px;
+   }
+
+   .section__title{
+    left: 175px;
+    top: 50px;
   }
 
-  .services__modal-description{
-    padding: 0;
-
+  .section__subtitle{
+    left: 175px;
+    top: 80px;
   }
+  
+  }
+
+
+
  
-}
 
 /* For small devices */
-@media screen and (max-width: 400px) {
-  .services__container{
-    grid-template-columns: max-content;
+@media screen and (max-width: 360px) {
 
-  }
-
-  .services__content{
-    padding-right: 6rem;
-  }
-
+  .container__full-services {
+      position: absolute;
+      width: 276px;
+      height: 140vh;
+      left: 27px;
+      border: 15px solid black ;
+   }
   
+   .services__content-frontend{
+    width: 255px;
+    height: 306px;    
+    left: 10px;
+    top: 93px;
+   }
+
+   .services__content-design{
+    left: 10px;
+    top: 430px;
+    width: 255px;
+    height: 306px;
+   }
+
+   .section__title{
+    left: 90px;
+    top: 50px;
+  }
+
+  .section__subtitle{
+    left: 90px;
+    top: 80px;
+  }
+
+
 }
+  
+
+
+
+
+
+
 

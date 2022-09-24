@@ -200,60 +200,119 @@ position: absolute;
     width: 18px;
 }
 
-@media screen and (max-width: 992px) {
-    .about__container{
-        grid-template-columns: 1fr;
-        row-gap: 2.5rem;
-    }
 
-    .about__img{
-        width: 220px;
-    }
 
-    .about__box{
-        padding: o.75rem 0.5rem;
-    }
-
-    .about__data{
-        text-align: center;
-    }
-
-    .about__info{
-        justify-content: center;
-    }
-    .about__description{
-        padding: 0.5rem;
-        margin-bottom: 2rem;
-    }
+@media screen and (max-width: 768px) {
 
    
-}
+  
+    .container__full-about {
+      position: relative;
+      width: 644px;
+      height: 140vh;
+   }
+  
+   .about__img{
+    width: 255px;
+    height: 306px;
+    left: 182px;
+    top: 93px;
+   }
+
+   .about__data{
+    left: 182px;
+    top: 430px;
+    width: 255px;
+    height: 306px;
+   }
+
+   .section__title{
+    left: 260px;
+    top: 50px;
+  }
+
+  .section__subtitle{
+    left: 260px;
+    top: 80px;
+  }
+
+  }
   
   /* For medium devices */
-  @media screen and (max-width: 768px) {
-    
-  }
-  
   @media screen and (max-width: 576px) {
 
-    .about__info{
-        grid-template-columns: repeat(3, 1fr);
-    }
-
-    .about__description{
-        padding: 10px;
+    .container__full-about {
+        position: relative;
+        width: 452px;
+        height: 140vh;
+     }
+    
+     .about__img{
+      width: 255px;
+      height: 306px;
+      left: 96px;
+      top: 93px;
+     }
+  
+     .about__data{
+      left: 96px;
+      top: 430px;
+      width: 255px;
+      height: 306px;
+     }
+  
+     .section__title{
+      left: 175px;
+      top: 50px;
     }
   
-  }
-  
-  /* For small devices */
-  @media screen and (max-width: 400px) {
-
-    .about__info{
-        grid-template-columns: repeat(2, 1fr);
-        
+    .section__subtitle{
+      left: 175px;
+      top: 80px;
     }
     
-  }
+    }
   
+  
+  
+   
+  
+  /* For small devices */
+  @media screen and (max-width: 360px) {
+
+    .container__full-about {
+        position: absolute;
+        width: 276px;
+        height: 140vh;
+        left: 27px;
+        border: 15px solid black ;
+     }
+    
+     .about__img{
+      width: 255px;
+      height: 306px;    
+      left: 10px;
+      top: 93px;
+     }
+  
+     .about__data{
+      left: 10px;
+      top: 430px;
+      width: 255px;
+      height: 306px;
+     }
+  
+     .section__title{
+      left: 90px;
+      top: 50px;
+    }
+  
+    .section__subtitle{
+      left: 90px;
+      top: 80px;
+    }
+  
+  
+  }
+    
   
