@@ -168,7 +168,7 @@
 
 .cont__img{
     position: absolute;
-    right: 70px;
+    left: 470px;
     top: 93px;
     background-color: transparent;
     width: 350px;
@@ -196,9 +196,6 @@
   background-size: cover;
   box-shadow: inset 0 0 0 4px rgb(255 255 255 /30%);
   order: 1;
-  justify-self: center;
-  justify-content: center;
-  align-items: center;
   width: 260px;
   height: 260px;
   animation: profile__animate 8s ease-in-out infinite 1s;
@@ -266,39 +263,35 @@
     height: 156vh;
   }
 
-  .container__full-home {
+  
+  .container__full-home{
     position: relative;
     width: 644px;
     height: 140vh;
  }
 
- .home__data {
-  position: absolute;
-  background:url("../../../../public/images/frame-left-03.png");
-  background-size: cover;
+ .home__data{
   width: 255px;
   height: 306px;
-  left: 70px;
+  left: 182px;
   top: 93px;
-  
-}
-.home__img {
+ }
 
-  position: absolute;
-  background: url("../../../../public/images/profile.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  box-shadow: inset 0 0 0 4px rgb(255 255 255 /30%);
-  order: 1;
-  justify-self: center;
-  justify-content: center;
-  align-items: center;
-  width: 260px;
-  height: 260px;
-  animation: profile__animate 8s ease-in-out infinite 1s;
-  top: 700px;
-  left: 80px;
+ 
+ .cont__img{
+  left: 102px;
+  top: 400px;
+ 
+ }
+
+ .section__title{
+  left: 260px;
+  top: 50px;
+}
+
+.section__subtitle{
+  left: 260px;
+  top: 80px;
 }
 }
 
@@ -310,6 +303,37 @@
     width: 576px;
     height: 156vh;
   }
+
+  .container__full-home {
+    position: relative;
+    width: 452px;
+    height: 140vh;
+ }
+
+ .home__data{
+  width: 255px;
+  height: 306px;
+  left: 96px;
+  top: 93px;
+ }
+
+ 
+ .cont__img{
+  left: 22px;
+  top: 400px;
+ 
+ }
+
+ .section__title{
+  left: 175px;
+  top: 50px;
+}
+
+.section__subtitle{
+  left: 175px;
+  top: 80px;
+}
+
   
 }
 
@@ -326,7 +350,53 @@
     width: 360px;
     height: 156vh;
   }
+  .container__full-home {
+    position: absolute;
+    width: 276px;
+    height: 140vh;
+    left: 27px;
+    border: 15px solid black ;
+ }
+
+ .home__data{   
+  left: 10px;
+  top: 93px;
+ }
+
+ 
+ .cont__img{
+  left: -70px;
+  top: 400px;
+  width: 200px;
+  height: 250px;
+ }
+
+ .home__img{
+  width: 200px;
+  height: 200px;
+  left: 10px;
+ }
+
+ .section__title{
+  left: 90px;
+  top: 50px;
+}
+
+.section__subtitle{
+  left: 90px;
+  top: 80px;
+}
+
 
 
 }
   
+
+@media screen and (max-width: 355px) {
+  
+  .home__img{
+    width: 200px;
+    height: 200px;
+    left: 110px;
+   }
+}

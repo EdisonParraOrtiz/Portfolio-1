@@ -23,7 +23,7 @@ const Header = () => {
                     }
                     to="/"
                   >
-                    <i className="uil uil-estate nav__icon"></i> Home
+                    Home
                   </NavLink>
                 </li>
                 <li className="header__item-about">
@@ -33,7 +33,7 @@ const Header = () => {
                     }
                     to="/about"
                   >
-                    <i className="uil uil-user nav__icon"></i> About
+                     About
                   </NavLink>
                 </li>
                 <li className="header__item-skills">
@@ -43,7 +43,7 @@ const Header = () => {
                     }
                     to="/skills"
                   >
-                    <i className="uil uil-file-alt nav__icon"></i> Skills
+                     Skills
                   </NavLink>
                 </li>
                 <li className="header__item-services">
@@ -53,7 +53,7 @@ const Header = () => {
                     }
                     to="/services"
                   >
-                    <i className="uil uil-briefcase-alt nav__icon"></i> Services
+                     Services
                   </NavLink>
                 </li>
                 <li className="header__item-portfolio">
@@ -63,7 +63,7 @@ const Header = () => {
                     }
                     to="/portfolio"
                   >
-                    <i className="uil uil-scenery nav__icon"></i> Portfolio
+                     Portfolio
                   </NavLink>
                 </li>
                 <li className="header__item-contact">
@@ -73,7 +73,7 @@ const Header = () => {
                     }
                     to="/contact"
                   >
-                    <i className="uil uil-message nav__icon"></i> Contact
+                    Contact
                   </NavLink>
                 </li>
               </ul>

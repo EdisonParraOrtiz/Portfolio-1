@@ -188,14 +188,17 @@
 
   .nav__menu{
       position: fixed;
+      margin: auto;
       bottom: -100%;
       left: 0;
       width: 100%;
-      background-color: var(--body-color);
-      padding: 2rem 1.5rem 4rem;
+      border-radius: 1.5rem 1.5rem 0 0;
+      padding: 3px;
       box-shadow:  0 -1px 4px rgba(0, 0, 0, 0.15,);
       border-radius: 1.5rem 1.5rem 0 0;
       transition: .5s;
+      align-items: center;
+      justify-content: center;
       
       
 
@@ -225,7 +228,7 @@
       bottom: .5rem;
       font-size: 1.5rem;
       cursor: pointer;
-      color: var(--title-color);
+      color: black;
   }
 
   .nav__close:hover{
@@ -250,6 +253,7 @@
 @media screen and (max-width: 350px) {
 
   .nav__menu{
+    width: 40%;
       padding: 2rem 0.25rem 4rem;
   }
 
