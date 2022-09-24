@@ -15,52 +15,53 @@ const Contact = () => {
           <span className="section__subtitle">Get in touch me</span>
 
           <div className="contact__container  grid">
-            <div className="contac__content">
-              <h3 className="contact__title">Talk to me</h3>
+            
+            <div className="contact__content-cards">
+              <h3 className="contact__title-t">Talk to me</h3>
               <div className="contact__info">
                 <div className="contact__card">
-                  <i className="bx bx-mail-send contact__card-icon"></i>
+                  <i className="bx bx-mail-send contact__card-icon-e"></i>
 
-                  <h3 className="contact__card-title">Email</h3>
-                  <span className="contact__card-data">user8@gmail.com</span>
+                  <h3 className="contact__card-title-e">Email</h3>
+                  <span className="contact__card-data-e">user8@gmail.com</span>
 
                   <a
                     href="edisonparraortiz8@gmail.com"
-                    className="contact__button"
+                    className="contact__button-e"
                   >
                     Writte me {""}{" "}
                     <i
                       className="bx bx-right-arrow-alt
-              contact__button_icon"
+                       contact__button_icon"
                     ></i>
                   </a>
                 </div>
 
                 <div className="contact__card">
-                  <i className="bx bxl-whatsapp contact__card-icon"></i>
+                  <i className="bx bxl-whatsapp contact__card-icon-w"></i>
 
-                  <h3 className="contact__card-title">Whatsapp</h3>
-                  <span className="contact__card-data">999-999-444</span>
+                  <h3 className="contact__card-title-w">Whatsapp</h3>
+                  <span className="contact__card-data-w">999-999-444</span>
 
                   <a
                     href="https://api.whatsapp.com/send?phone=+573057097994"
-                    className="contact__button"
+                    className="contact__button-w"
                   >
                     Writte me{" "}
                     <i
                       className="bx bx-right-arrow-alt
-              contact__button_icon"
+                      contact__button_icon"
                     ></i>
                   </a>
                 </div>
 
                 <div className="contact__card">
-                  <i className="bx bxl-messenger contact__card-icon"></i>
+                  <i className="bx bxl-messenger contact__card-icon-m"></i>
 
-                  <h3 className="contact__card-title">Messenger</h3>
-                  <span className="contact__card-data">user123</span>
+                  <h3 className="contact__card-title-m">Messenger</h3>
+                  <span className="contact__card-data-m">user123</span>
 
-                  <a href="" className="contact__button">
+                  <a href="" className="contact__button-m">
                     Writte me{" "}
                     <i
                       className="bx bx-right-arrow-alt
@@ -71,43 +72,44 @@ const Contact = () => {
               </div>
             </div>
 
-            <div className="contac__content">
-              <h3 className="contact__title">Write your project</h3>
 
-              <div className="contact__form-div">
+            <div className="contact__content-form">
+              <h3 className="contact__title-f">Write your project</h3>
+
+              <div className="contact__form-div-f">
                 <form className="contact__form">
-                  <div className="contact__form-div">
-                    <label className="contact__form-tag">Name</label>
+                  <div className="contact__form-div-name">
+                    <label className="contact__form-tag-name">Name</label>
                     <input
                       type="name"
                       name="name"
-                      className="contact__form-input"
+                      className="contact__form-input-name"
                       placeholder="Insert your name"
                     />
                   </div>
-                  <div className="contact__form-div">
-                    <label className="contact__form-tag">Email</label>
+                  <div className="contact__form-div-email">
+                    <label className="contact__form-tag-email">Email</label>
                     <input
                       type="email"
                       name="email"
-                      className="contact__form-input"
+                      className="contact__form-input-email"
                       placeholder="Insert your email"
                     />
                   </div>
-                  <div className="contact__form-div contact__form-area">
-                    <label className="contact__form-tag">Project</label>
+                  <div className="contact__form-div-project contact__form-area">
+                    <label className="contact__form-tag-project">Project</label>
                     <textarea
                       name="project"
                       cols="30"
                       rows="10"
-                      className="contact__form-input"
+                      className="contact__form-input-project"
                       placeholder="Write your project"
                     ></textarea>
                   </div>
-                  <button className="button button--flex">
+                  <button className="button-send-message ">
                     Send Message
                     <svg
-                      class="button__icon"
+                      class="button__icon-send-message"
                       xmlns="http://www.w3.org/2000/svg"
                       width="24"
                       height="24"
@@ -127,6 +129,8 @@ const Contact = () => {
                 </form>
               </div>
             </div>
+
+
           </div>
         </section>
       </div>
