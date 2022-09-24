@@ -97,7 +97,7 @@
   .container__full-projects {
     position: relative;
     width: 644px;
-    height: 140vh;
+    height: 850px;
  }
 
  .project__container-left{
@@ -132,7 +132,7 @@
   .container__full-projects {
       position: relative;
       width: 452px;
-      height: 950px;
+      height: 850px;
    }
   
    .project__container-left{
@@ -171,7 +171,7 @@
   .container__full-projects {
       position: absolute;
       width: 276px;
-      height: 140vh;
+      height: 850px;
       left: 27px;
       border: 15px solid black ;
    }

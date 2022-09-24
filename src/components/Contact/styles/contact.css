@@ -302,7 +302,7 @@
     .container__full-contact {
         position: relative;
         width: 452px;
-        height: 140vh;
+        height: 850px;
      }
     
      .contact__content-cards{
@@ -341,7 +341,7 @@
     .container__full-contact {
         position: absolute;
         width: 276px;
-        height: 140vh;
+        height: 850px;
         left: 27px;
         border: 15px solid black ;
      }
