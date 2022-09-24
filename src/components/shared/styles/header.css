@@ -191,6 +191,7 @@
       margin: auto;
       bottom: -100%;
       left: 0;
+      top: 860px;
       width: 100%;
       border-radius: 1.5rem 1.5rem 0 0;
       padding: 3px;
@@ -228,7 +229,7 @@
       justify-content: end;
       align-items: start;
       left: 620px;
-      bottom: 70px;
+      bottom: 240px;
       font-size: 2rem;
       cursor: pointer;
       color: white;
@@ -250,6 +251,17 @@
   .nav__toggle{
       display: block;
   }
+
+  .header::before{
+    content: "Hola";
+    position:absolute;
+    top: 0;
+    right: 0;
+    background-color: black;
+    color: black;
+    width: 120px;
+    height: 18px;
+  }
 }
 
 @media screen and (max-width: 576px) {
@@ -264,6 +276,17 @@
   .nav__close,
   .nav__toggle{
       display: block;
+  }
+
+  .header::before{
+    content: "Hola";
+    position:absolute;
+    top: 0;
+    right: 0;
+    background-color: black;
+    color: black;
+    width: 120px;
+    height: 18px;
   }
 
 
@@ -295,5 +318,19 @@
 
 
 }
+
+}
+@media screen and (max-width: 350px) {
+
+  .header::before{
+    content: "Hola";
+    position:absolute;
+    top: 0;
+    right: 0;
+    background-color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    width: 120px;
+    height: 18px;
+  }
 
 }
