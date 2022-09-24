@@ -12,7 +12,7 @@
   .container__full-about {
     position: relative;
     width: 900px;
-    height: 1060px;
+    height: 74vh;
     background: url("../../../../public/images/background-04.png");
     border-right: 20px solid black;
     border-left:  20px solid black ; 
@@ -209,7 +209,7 @@ position: absolute;
     .container__full-about {
       position: relative;
       width: 644px;
-      height: 140vh;
+      height: 850vh;
    }
   
    .about__img{
