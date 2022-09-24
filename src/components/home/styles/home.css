@@ -261,14 +261,14 @@
   .container {
     position: relative;
     width: 768px;
-    height: 90vh;
+    height: 1180px;
   }
 
   
   .container__full-home{
     position: relative;
     width: 644px;
-    height: 74vh;
+    height: 1060px;
  }
 
  .home__data{

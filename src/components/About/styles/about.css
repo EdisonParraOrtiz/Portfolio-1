@@ -12,7 +12,7 @@
   .container__full-about {
     position: relative;
     width: 900px;
-    height: 74vh;
+    height: 1060px;
     background: url("../../../../public/images/background-04.png");
     border-right: 20px solid black;
     border-left:  20px solid black ; 
@@ -31,7 +31,6 @@
     background-color: rgb(255, 255, 255);
     color: rgb(248, 248, 248);
     left: -25px;
-    top: -25px;
 }
 
 
@@ -210,7 +209,7 @@ position: absolute;
     .container__full-about {
       position: relative;
       width: 644px;
-      height: 74vh;
+      height: 140vh;
    }
   
    .about__img{
