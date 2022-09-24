@@ -302,13 +302,13 @@
   .container {
     position: relative;
     width: 576px;
-    height: 850px
+    height: 960px
   }
 
   .container__full-home {
     position: relative;
     width: 452px;
-    height: 850vh;
+    height: 850px;
  }
 
  .home__data{
@@ -349,7 +349,7 @@
   .container {
     position: relative;
     width: 360px;
-    height: 850px;
+    height: 960px;
   }
   .container__full-home {
     position: absolute;
