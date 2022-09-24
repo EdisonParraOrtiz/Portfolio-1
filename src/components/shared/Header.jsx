@@ -76,12 +76,13 @@ const Header = () => {
                     Contact
                   </NavLink>
                 </li>
-              </ul>
-            </div>
-            <i
+                <i
               class="uil uil-times nav__close"
               onClick={() => showMenu(!Toggle)}
-            ></i>
+                ></i>
+              </ul>
+            </div>
+           
             <div className="nav__toggle" onClick={() => showMenu(!Toggle)}>
               <i class="uil uil-apps"></i>
             </div>

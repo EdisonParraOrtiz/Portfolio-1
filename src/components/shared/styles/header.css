@@ -215,7 +215,7 @@
       display: grid;
       grid-template-columns: repeat(3, 1fr);
       gap: 2rem;
-      ;
+      
   }
 
   .nav__icon{
@@ -223,12 +223,17 @@
   }
 
   .nav__close{
-      position: absolute;
-      right: 1.3rem;
-      bottom: .5rem;
-      font-size: 1.5rem;
+      position: fixed;
+      display: flex;
+      justify-content: end;
+      align-items: start;
+      left: 620px;
+      bottom: 70px;
+      font-size: 2rem;
       cursor: pointer;
-      color: black;
+      color: white;
+      background-color: rgb(77, 76, 76);
+      border-radius: 50%;
   }
 
   .nav__close:hover{
@@ -247,13 +252,31 @@
   }
 }
 
+@media screen and (max-width: 576px) {
+  
+  .nav__close{
+    left: 520px;
+    bottom: 70px;
+    
+}
+
+.nav__icon,
+  .nav__close,
+  .nav__toggle{
+      display: block;
+  }
+
+
+}
+
+
 
 /* for small devices */
 
 @media screen and (max-width: 350px) {
 
   .nav__menu{
-    width: 40%;
+    width: 80%;
       padding: 2rem 0.25rem 4rem;
   }
 
@@ -262,7 +285,15 @@
       
   }
 
+  .nav__close{
+    
+    left: 360px;
+    bottom: 135px;
+    
 
 
+
+
+}
 
 }
