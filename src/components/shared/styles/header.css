@@ -191,7 +191,7 @@
       margin: auto;
       bottom: -100%;
       left: 0;
-      top: 900px;
+      top: 940px;
       width: 100%;
       border-radius: 1.5rem 1.5rem 0 0;
       padding: 3px;
@@ -229,7 +229,7 @@
       justify-content: end;
       align-items: start;
       left: 620px;
-      bottom: 240px;
+      bottom: 200px;
       font-size: 2rem;
       cursor: pointer;
       color: white;
