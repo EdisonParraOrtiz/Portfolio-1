@@ -329,11 +329,11 @@
 
  .section__title{
   left: 175px;
-  top: 50px;
+  top: 40px;
 }
 
 .section__subtitle{
-  left: 175px;
+  left: 165px;
   top: 80px;
 }
 
@@ -381,13 +381,13 @@
  }
 
  .section__title{
-  left: 90px;
+  left: 75px;
   top: 50px;
   font-size: 22px;
 }
 
 .section__subtitle{
-  left: 90px;
+  left: 75px;
   top: 80px;
   font-size: 14px;
 }
