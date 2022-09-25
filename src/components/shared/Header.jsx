@@ -16,73 +16,72 @@ const Header = () => {
           <nav className="nav-container">
             <div className={Toggle ? "nav__menu show-menu" : "nav__menu"}>
               <ul className="nav__list">
-                <li className="header__item-home">
+                
                   <NavLink
                     className={({ isActive }) =>
-                      isActive ? "nav__link  active-Link" : "nav__link"
+                      isActive ? "header__item-home " : "header__item-home"
                     }
                     to="/"
                   >
-                    Home
+                    <i className="uil uil-estate nav__icon"></i> Home
                   </NavLink>
-                </li>
-                <li className="header__item-about">
+                
+                
                   <NavLink
                     className={({ isActive }) =>
-                      isActive ? "nav__link  active-Link" : "nav__link"
+                      isActive ? "header__item-about  " : "header__item-about"
                     }
                     to="/about"
                   >
-                     About
+                    <i className="uil uil-user nav__icon"></i> About
                   </NavLink>
-                </li>
-                <li className="header__item-skills">
+                
+                
                   <NavLink
                     className={({ isActive }) =>
-                      isActive ? "nav__link  active-Link" : "nav__link"
+                      isActive ? "header__item-skills  " : "header__item-skills"
                     }
                     to="/skills"
                   >
-                     Skills
+                    <i className="uil uil-file-alt nav__icon"></i> Skills
                   </NavLink>
-                </li>
-                <li className="header__item-services">
+                
+            
                   <NavLink
                     className={({ isActive }) =>
-                      isActive ? "nav__link  active-Link" : "nav__link"
+                      isActive ? "header__item-services " : "header__item-services"
                     }
                     to="/services"
                   >
-                     Services
+                    <i className="uil uil-briefcase-alt nav__icon"></i> Services
                   </NavLink>
-                </li>
-                <li className="header__item-portfolio">
+                
+               
                   <NavLink
                     className={({ isActive }) =>
-                      isActive ? "nav__link  active-Link" : "nav__link"
+                      isActive ? "header__item-portfolio " : "header__item-portfolio"
                     }
                     to="/portfolio"
                   >
-                     Portfolio
+                    <i className="uil uil-scenery nav__icon"></i> Portfolio
                   </NavLink>
-                </li>
-                <li className="header__item-contact">
+             
+                
                   <NavLink
                     className={({ isActive }) =>
-                      isActive ? "nav__link  active-Link" : "nav__link"
+                      isActive ? "header__item-contact  " : "header__item-contact"
                     }
                     to="/contact"
                   >
-                    Contact
+                    <i className="uil uil-message nav__icon"></i> Contact
                   </NavLink>
-                </li>
-                <i
-              class="uil uil-times nav__close"
-              onClick={() => showMenu(!Toggle)}
-                ></i>
+                
               </ul>
             </div>
-           
+            <i
+              class="uil uil-times nav__close"
+              onClick={() => showMenu(!Toggle)}
+            ></i>
             <div className="nav__toggle" onClick={() => showMenu(!Toggle)}>
               <i class="uil uil-apps"></i>
             </div>

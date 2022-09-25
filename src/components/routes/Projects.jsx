@@ -2,6 +2,7 @@ import React from "react";
 import Social from "../home/Social";
 import "../Projects/styles/project.css";
 import Header from "../shared/Header";
+import ImagenProject from'../../../public/images/imagen-project.png'
 
 const Projects = () => {
   return (
@@ -16,11 +17,8 @@ const Projects = () => {
 
           <div className="projects-container">
             <div className="project__container-left">
-              <img
-                src={"../../../public/images/imagen-project.png"}
-                alt=""
-                className="project__imagen"
-              />
+              <img  className="project__imagen-1" src={ImagenProject}alt="imagen project" />
+              
               <h3 className="project__title-project">Project 1</h3>
               <p className="project__description">
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam,
@@ -30,11 +28,8 @@ const Projects = () => {
             </div>
             
             <div className="project__container-right">
-              <img
-                src={"../../../public/images/imagen-project.png"}
-                alt=""
-                className="project__imagen"
-              />
+             <img  className="project__imagen-2" src={ImagenProject}alt="imagen project" />
+             
               <h3 className="project__title-project">Project 1</h3>
               <p className="project__description">
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam,

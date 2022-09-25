@@ -86,10 +86,10 @@
 
 .home__title {
   position: absolute;
-  font-size: 30px;
+  font-size: 25px;
   align-items: center;
   justify-content: center;
-  left: 50px;
+  left: 53px;
 }
 
 .containe__hand{
@@ -108,6 +108,7 @@
 .home__subtitle {
   position: absolute;
   left: 5px;
+  font-size: 18px;
   text-align: center;
   top: 99px;
   

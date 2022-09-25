@@ -66,6 +66,8 @@
 }
 
 
+
+
 .header__item-home{
   width: 100px;
   height: 50px;
@@ -75,6 +77,9 @@
   justify-content: center;
   align-items: center;
   border-radius: 5px;
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
 }
 
 .header__item-about{
@@ -86,6 +91,9 @@
   justify-content: center;
   align-items: center;
   border-radius: 5px;
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
 }
 
 .header__item-skills{
@@ -97,6 +105,9 @@
   justify-content: center;
   align-items: center;
   border-radius: 5px;
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
 }
 
 .header__item-services{
@@ -108,6 +119,9 @@
   justify-content: center;
   align-items: center;
   border-radius: 5px;
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
 }
 
 .header__item-portfolio{
@@ -119,6 +133,9 @@
   justify-content: center;
   align-items: center;
   border-radius: 5px;
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
 }
 
 .header__item-contact{
@@ -130,6 +147,9 @@
   justify-content: center;
   align-items: center;
   border-radius: 5px;
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
 }
 
 
@@ -140,9 +160,9 @@
 .header__item-portfolio:hover,
 .header__item-contact:hover,
 .header__item-home:hover{
-  background-color: black;
+  background-color: rgb(125, 161, 185);
   transition: 0.5s ease-in-out;
-  transform:  translate(2px);
+  transform:  translate(0.1rem);
 }
 
 

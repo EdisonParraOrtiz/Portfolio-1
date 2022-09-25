@@ -64,13 +64,26 @@
 }
 
 
-.project__imagen{ 
+.project__imagen-1{ 
   position: absolute;
   width: 200px;
+  height: 140px;
   align-items: center;
   justify-content: center;
-  left: 25px;
-  top: 20px;
+  left: 28px;
+  top: 28px;
+}
+
+.project__imagen-2{ 
+  position: absolute;
+  left: 40px;
+  top: 30px;
+  width: 200px;
+  height: 140px;
+  align-items: center;
+  justify-content: center;
+  left: 28px;
+  top: 28px;
 }
 
 .project__title-project{

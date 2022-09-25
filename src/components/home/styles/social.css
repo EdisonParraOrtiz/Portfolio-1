@@ -18,7 +18,7 @@
   
   
   .button__content-instagram{
-      position: relative;
+      position: absolute;
       width: 23px;
       height: 23px;
       margin: auto;
@@ -26,11 +26,13 @@
       border: rgb(180, 176, 176);
       border-radius: 20px;
       left: -20px;
+      color: white;
   } 
+
   
   
   .button__content-likendin{
-      position: relative;
+      position: absolute;
       width: 23px;
       height: 23px;
       margin: auto;
@@ -38,10 +40,12 @@
       border: rgb(129, 126, 126);
       border-radius: 20px;
       left: -20px;
+      top: 55px;
+      color: white;
   } 
   
   .button__content-github{
-      position: relative;
+      position: absolute;
       width: 23px;
       height: 23px;
       margin: auto;
@@ -49,28 +53,38 @@
       border: rgb(65, 63, 63);
       border-radius: 20px;
       left: -20px;
+      top: 110px;
+      color: white;
   } 
   
   .button__content-facebook{
-      position: relative;
+      position: absolute;
       width: 23px;
       height: 23px;
       margin: auto;
       background-color: black;
       border-radius: 20px;
       left: -20px;
+      top: 165px;
+      color: white;
   } 
   
-  .home__social-icon{
-      color: white;
-      align-items: center;
-      justify-content: center;
-      
-      
+  .icono__red-social{
+    position: absolute;
+    left: 4px;
+    top: 2px;
   }
   
-  .home__social-icon:hover {
-    color: rgb(43, 205, 245);
+      
+      
+  
+  
+  .button__content-facebook:hover,
+  .button__content-github:hover,
+  .button__content-likendin:hover,
+  .button__content-instagram:hover {
+    background-color: rgb(125, 161, 185);
+    transform: translate(0.1rem);
   }
   
   
