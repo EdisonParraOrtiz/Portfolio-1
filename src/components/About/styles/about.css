@@ -150,25 +150,26 @@
 .about__title{
     position: relative;
     top: 0px;
-    left: 1px;
-    font-size: 14px;
+    left: 0.5px;
+    font-size: 12px;
    
 }
 
 .about__subtitle{
     position: relative;
     top: -5px;
-    left: 5px;
+    left: 0.5px;
+    font-size: 12px;
    
    
 }
 
 .about__description{
     position: absolute;
-    top: 140px;
+    top: 150px;
     left: 20px;
     width: 210px;
-   
+    font-size: 12px;
     text-align: justify;
 }
 
