@@ -381,13 +381,13 @@
  }
 
  .section__title{
-  left: 75px;
+  left: 70px;
   top: 50px;
   font-size: 22px;
 }
 
 .section__subtitle{
-  left: 75px;
+  left: 70px;
   top: 80px;
   font-size: 14px;
 }
@@ -404,4 +404,14 @@
     height: 200px;
     left: 110px;
    }
+
+   .section__title{
+    left: 60px;
+   
+  }
+  
+  .section__subtitle{
+    left: 60px;
+   
+  }
 }
