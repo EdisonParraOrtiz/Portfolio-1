@@ -202,6 +202,7 @@
   animation: profile__animate 8s ease-in-out infinite 1s;
   top: 0px;
   left: 80px;
+  border: 5px solid black;
 }
 
 @keyframes profile__animate {
