@@ -240,14 +240,14 @@
     height: 850px;
  }
 
- .services__content-frontend{
+ .services__content-fullstack{
   width: 255px;
   height: 306px;
   left: 182px;
   top: 93px;
  }
 
- .services__content-design{
+ .services__content-visual{
   left: 182px;
   top: 430px;
   width: 255px;
@@ -275,18 +275,20 @@
       height: 850px;
    }
   
-   .services__content-frontend{
+   .services__content-fullstack{
     width: 255px;
     height: 306px;
     left: 96px;
     top: 93px;
+    background-color: brown;
    }
 
-   .services__content-design{
+   .services__content-visual{
     left: 96px;
     top: 430px;
     width: 255px;
     height: 306px;
+    background-color: blue;
    }
 
    .section__title{
@@ -309,24 +311,24 @@
 @media screen and (max-width: 360px) {
 
   .container__full-services {
-      position: absolute;
+      position: relative;
       width: 276px;
       height: 850px;
       left: 27px;
       border: 15px solid black ;
    }
   
-   .services__content-frontend{
-    width: 255px;
+   .services__content-f{
+    width: 245px;
     height: 306px;    
     left: 10px;
     top: 93px;
    }
 
-   .services__content-design{
+   .services__content-visual{
     left: 10px;
     top: 430px;
-    width: 255px;
+    width: 245px;
     height: 306px;
    }
 
