@@ -264,6 +264,16 @@
   top: 80px;
 }
 
+.services__modal-content-f{
+  top: 130px;
+  left: 230px;
+}
+
+.services__modal-content-v{
+  top: 455px;
+  right: 260px;
+}
+
 }
 
 /* For medium devices */
@@ -280,7 +290,7 @@
     height: 306px;
     left: 96px;
     top: 93px;
-    background-color: brown;
+    
    }
 
    .services__content-visual{
@@ -288,7 +298,7 @@
     top: 430px;
     width: 255px;
     height: 306px;
-    background-color: blue;
+    
    }
 
    .section__title{
@@ -299,6 +309,16 @@
   .section__subtitle{
     left: 175px;
     top: 80px;
+  }
+
+  .services__modal-content-f{
+    top: 130px;
+    left: 150px;
+  }
+  
+  .services__modal-content-v{
+    top: 455px;
+    right: 150px;
   }
   
   }
@@ -318,8 +338,8 @@
       border: 15px solid black ;
    }
   
-   .services__content-f{
-    width: 245px;
+   .services__content-fullstack{
+    width: 255px;
     height: 306px;    
     left: 10px;
     top: 93px;
@@ -328,7 +348,7 @@
    .services__content-visual{
     left: 10px;
     top: 430px;
-    width: 245px;
+    width: 255px;
     height: 306px;
    }
 
@@ -341,6 +361,26 @@
     left: 90px;
     top: 80px;
   }
+
+  .services__modal-content-f{
+    width: 240px;
+    height: 350px;
+    top: 130px;
+    left: 73px;
+  }
+  
+  .services__modal-content-v{
+    width: 240px;
+    height: 350px;
+    top: 455px;
+    right: 73px;
+    background: url("../../../../public/images/frame-left-06-06.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: white;
+    
+  }
+  
 
 
 }
