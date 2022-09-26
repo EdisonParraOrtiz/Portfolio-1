@@ -18,12 +18,12 @@ const Services = () => {
           <h2 className="section__title">Services</h2>
           <span className="section__subtitle">What i offer</span>
           <div className="services__container  grid">
-            <div className="services__content-frontend">
+            <div className="services__content-fullstack">
               <div>
                 <i className="uil uil-web-grid services__icon"></i>
                 <h3 className="services__title">
                   {" "}
-                  Product <br /> Designer
+                  Fullstack <br /> Developer
                 </h3>
               </div>
               {/* onClick={() => toggleTab(1)} */}
@@ -35,22 +35,22 @@ const Services = () => {
               <div
                 className={
                   toggleState === 1
-                    ? "services__modal active-modal"
-                    : "services__modal"
+                    ? "services__modal-f active-modal-f"
+                    : "services__modal-f"
                 }
               >
-                <div className="services__modal-content">
+                <div className="services__modal-content-f">
                   <i
                     onClick={() => toggleTab(0)}
                     className="uil uil-times services__modal-close"
                   ></i>
                   {/* onClick={() => toggleTab(0)} */}
-                  <h3 className="services__modal"> Prdouct / Designer</h3>
-                  <p className="services__modal-description">
+                  <h3 className="services__modal-title"> Fullstack / Developer</h3>
+                  {/* <p className="services__modal-description">
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                     Quis impedit repudiandae ab. Eos minus repudiandae
                     distinctio maiores, eum pariatur in,
-                  </p>
+                  </p> */}
 
                   <ul className="services__modal-services grid">
                     <li className="services__modal-service">
@@ -88,7 +88,7 @@ const Services = () => {
               </div>
             </div>
 
-            <div className="services__content-design">
+            <div className="services__content-visual">
               <div>
                 <i className="uil uil-edit services__icon"></i>
                 <h3 className="services__title">
@@ -96,30 +96,30 @@ const Services = () => {
                 </h3>
               </div>
 
-              <span className="services__button" onClick={() => toggleTab(1)}>
+              <span className="services__button" onClick={() => toggleTab(2)}>
                 View More{" "}
                 <i className="uil uil-arrow-right services__button-icon"></i>
               </span>
 
               <div
                 className={
-                  toggleState === 1
-                    ? "services__modal active-modal"
-                    : "services__modal"
+                  toggleState === 2
+                    ? "services__modal-v active-modal-v"
+                    : "services__modal-v"
                 }
               >
-                <div className="services__modal-content">
+                <div className="services__modal-content-v">
                   <i
                     onClick={() => toggleTab(0)}
                     className="uil uil-times services__modal-close"
                   ></i>
 
                   <h3 className="services__modal-title">Visual / Designer</h3>
-                  <p className="services__modal-description">
+                  {/* <p className="services__modal-description">
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                     Quis impedit repudiandae ab. Eos minus repudiandae
                     distinctio maiores, eum pariatur in,
-                  </p>
+                  </p> */}
 
                   <ul className="services__modal-services grid">
                     <li className="services__modal-service">
