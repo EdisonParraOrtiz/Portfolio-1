@@ -111,7 +111,7 @@
 
 .services__modal-f{
  display: none;
- position: fixed;
+ position: relative;
  top: 0px;
  left: 0;
  right: 0;
@@ -129,7 +129,7 @@
 
 .services__modal-v{
  display: none;
- position: fixed;
+ position: relative;
  top: 0px;
  left: 0;
  right: 0;
@@ -152,10 +152,11 @@
   background: url("../../../../public/images/frame-left-06-modal.png");
   background-repeat: no-repeat;
   background-size: contain;
-  background-color: rgb(247, 244, 244);
-  padding: 40px 20px 40px 10px;
-  top: 130px;
-  left: 280px;
+  background-color: rgb(255, 255, 255);
+  padding: 40px 20px 40px 10px; 
+  top: -60px;
+  left: 0px;
+  
 }
 
 .services__modal-content-v{
@@ -167,8 +168,8 @@
   background-size: contain;
   background-color: rgb(247, 244, 244);
   padding: 40px 20px 40px 10px;
-  top: 130px;
-  right: 280px;
+  top: -60px;
+  right: 0px;
 }
 
 .services__modal-close{
@@ -265,13 +266,14 @@
 }
 
 .services__modal-content-f{
-  top: 130px;
-  left: 230px;
+  top: -20px;
+  left: -40px;
 }
 
 .services__modal-content-v{
-  top: 455px;
-  right: 260px;
+  top: -20px;
+  right: -40px;
+  
 }
 
 }
@@ -312,13 +314,13 @@
   }
 
   .services__modal-content-f{
-    top: 130px;
-    left: 150px;
+    top: -20px;
+    left: -38px;
   }
   
   .services__modal-content-v{
-    top: 455px;
-    right: 150px;
+    top: -20px;
+    right: -38px;
   }
   
   }
@@ -363,17 +365,17 @@
   }
 
   .services__modal-content-f{
-    width: 240px;
+    width: 230px;
     height: 350px;
-    top: 130px;
-    left: 73px;
+    top: -20px;
+    left: 0px;
   }
   
   .services__modal-content-v{
-    width: 240px;
+    width: 230px;
     height: 350px;
-    top: 455px;
-    right: 73px;
+    top: -20px;
+    right: -2px;
     background: url("../../../../public/images/frame-left-06-06.png");
     background-size: contain;
     background-repeat: no-repeat;
