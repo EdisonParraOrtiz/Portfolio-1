@@ -71,7 +71,7 @@ const Contact = () => {
                   <h3 className="contact__card-title-m">Messenger</h3>
                   <span className="contact__card-data-m">Edison Parra</span>
 
-                  <a href="http://m.me/www.facebook.com/profile.php?id=100008590836927" className="contact__button-m">
+                  <a href="http://m.me/profile.php?id=100008590836927" className="contact__button-m">
                     Writte me{" "}
                     <i
                       className="bx bx-right-arrow-alt
