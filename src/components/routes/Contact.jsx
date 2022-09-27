@@ -36,7 +36,7 @@ const Contact = () => {
                   <span className="contact__card-data-e">edisonparraortiz8 <br />@gmail.com</span>
 
                   <a
-                    href="edisonparraortiz8@gmail.com"
+                    href="mailto:edisonparraortiz8@gmail.com"
                     className="contact__button-e"
                   >
                     Writte me {""}{" "}
@@ -48,14 +48,14 @@ const Contact = () => {
                 </div>
 
                 <div className="contact__card">
-                  <i className="bx bxl-whatsapp contact__card-icon-w"></i>
+                  <i className="uil uil-instagram   contact__card-icon-i"></i>
 
-                  <h3 className="contact__card-title-w">Whatsapp</h3>
-                  <span className="contact__card-data-w">+573057097994</span>
+                  <h3 className="contact__card-title-i">Instagram</h3>
+                  <span className="contact__card-data-i">edison.parr.a</span>
 
                   <a
-                    href="https://chatwith.io/es/s/edison-1"
-                    className="contact__button-w"
+                    href="https://www.instagram.com/edison.parr.a/" target="blank"
+                    className="contact__button-i"
                   >
                     Writte me{" "}
                     <i
@@ -66,12 +66,12 @@ const Contact = () => {
                 </div>
 
                 <div className="contact__card">
-                  <i className="bx bxl-messenger contact__card-icon-m"></i>
+                <i class="uil uil-linkedin-alt  contact__card-icon-l"></i>
 
-                  <h3 className="contact__card-title-m">Messenger</h3>
-                  <span className="contact__card-data-m">Edison Parra</span>
+                  <h3 className="contact__card-title-l">Likedin</h3>
+                  <span className="contact__card-data-l">Edison Parra</span>
 
-                  <a href="http://m.me/profile.php?id=100008590836927" className="contact__button-m">
+                  <a href="https://www.linkedin.com/in/edisonparra/" target="blank" className="contact__button-l">
                     Writte me{" "}
                     <i
                       className="bx bx-right-arrow-alt

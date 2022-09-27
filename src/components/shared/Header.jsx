@@ -14,7 +14,7 @@ const Header = () => {
   return (
     <header className="header">
           <nav className="nav-container">
-            <div className={Toggle ? "nav__menu show-menu" : "nav__menu"}>
+            <div className= "nav__menu " >
               <ul className="nav__list">
                 
                   <NavLink
@@ -78,13 +78,13 @@ const Header = () => {
                 
               </ul>
             </div>
-            <i
+            {/* <i
               class="uil uil-times nav__close"
               onClick={() => showMenu(!Toggle)}
-            ></i>
-            <div className="nav__toggle" onClick={() => showMenu(!Toggle)}>
+            ></i> */}
+            {/* <div className="nav__toggle" onClick={() => showMenu(!Toggle)}>
               <i class="uil uil-apps"></i>
-            </div>
+            </div> */}
           </nav>
         </header>
     

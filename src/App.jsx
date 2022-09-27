@@ -7,6 +7,7 @@ import Projects from './components/routes/Projects'
 import Contact from './components/routes/Contact'
 import './App.css'
 import Header from './components/shared/Header'
+import Footer from './components/shared/Footer'
 
 
   function App() {
@@ -21,6 +22,7 @@ import Header from './components/shared/Header'
           <Route path='/portfolio' element={<Projects/>} />
           <Route path='/contact' element={<Contact/>} />
         </Routes>
+        <Footer/>
       </div>
     )
   }

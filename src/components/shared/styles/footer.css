@@ -1,0 +1,331 @@
+
+/* .container{
+  width: 1024px;
+  height: 95vh;
+  background-color: white;
+  border: 20px solid black;
+  box-shadow:  0px 0px 5px solid gray inset;
+  position: relative;
+  margin: auto;
+ 
+}  */
+
+.footer{
+  width: 100%;
+  height: 50px;
+  margin:  auto;
+  padding: 0;
+  position: relative;
+  top: 20px;
+  left: 0;
+  background-color: black;
+  background-size: 100px;
+  /* background: linear-gradient(45deg, black, gray, rgb(255, 255, 255));
+  animation: c-animation 10s infinite; */
+}
+
+/* @keyframes c-animation{
+  0%{background-position: left;}
+  100%{background-position: right;}
+} */
+
+
+
+.footer-container{
+  width: 100%;
+  height: 40px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  align-items: center;
+  top: -3px;
+ 
+}
+
+
+.button__home,
+.button__about,
+.button__skills,
+.button__services,
+.button__portfolio,
+.button__contact{
+  list-style: none;
+  width: 70px;
+  padding: 0px 10px ;
+  border-radius: 5px;
+}
+
+
+.button__home:hover,
+.button__about:hover,
+.button__skills:hover,
+.button__services:hover,
+.button__portfolio:hover,
+.button__contact:hover{
+  background-color: rgb(125, 161, 185);
+  transform: translate(3px);
+}
+
+.button__home{
+  background-color: rgb(12, 12, 12);
+  border: 1.5px solid rgb(250, 250, 250);
+}
+
+
+.button__about{
+  background-color: rgb(43, 41, 41);
+  border: 1.5px solid rgb(206, 204, 204);
+}
+
+.button__skills{
+  background-color: rgb(75, 73, 73);
+  border: 1.5px solid rgb(172, 169, 169);
+}
+
+.button__services{
+  background-color: rgb(180, 176, 176);
+  border: 1.5px solid rgb(136, 134, 134);
+
+}
+
+
+.button__portfolio{
+  background-color: rgb(216, 213, 213);
+  border: 1.5px solid rgb(95, 93, 93);
+}
+
+.button__contact{
+  background-color: white;
+  border: 1.5px solid rgb(53, 52, 52);
+}
+
+
+.button__home-link,
+.button__about-link,
+.button__skills-link,
+.button__services-link,
+.button__portfolio-link,
+.button__contact-link{
+  display: flex;
+  text-decoration: none;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.button__home-link{
+  color: rgb(247, 243, 243);
+}
+
+.button__about-link{
+  color: rgb(212, 209, 209);
+}
+
+
+.button__skills-link{
+  color: rgb(185, 179, 179);
+}
+
+.button__services-link{
+  color: rgb(66, 65, 65);
+
+}
+
+.button__portfolio-link{
+  color: rgb(39, 38, 38);
+}
+
+.button__contact-link{
+  color: rgb(3, 3, 3);
+}
+.button__home-link,
+.button__about-link,
+.button__skills-link,
+.button__services-link,
+.button__portfolio-link,
+.button__contact-link{
+  display: flex;
+  text-decoration: none;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+
+
+
+/*=============== BREAKPOINTS ===============*/
+
+@media screen and (max-width: 768px) {
+
+  .footer{
+    width: 810px;
+    height: 70px;
+
+  }
+
+  .footer-container{
+    position: absolute;
+    width: 768px;
+    display: grid;
+    grid-template-columns: 1fr 100px 100px 100px 100px 100px 100px 1fr;
+    grid-template-rows: 1fr ;
+    height: 80px;
+    margin-left: 110px;
+    
+  }
+  .button__home,
+.button__about,
+.button__skills,
+.button__services,
+.button__portfolio,
+.button__contact{
+  margin-bottom: 10px;
+  width: 60px;
+}
+
+.button__home{
+  margin-right: 18px;
+}
+
+}
+
+
+@media screen and (max-width: 576px) {
+
+  .footer{
+    width: 615px;
+    height: 70px;
+
+  }
+
+  .footer-container{
+    position: absolute;
+    width: 768px;
+    display: grid;
+    grid-template-columns: 1fr 80px 80px 80px 80px 80px 80px 1fr;
+    grid-template-rows: 1fr ;
+    height: 80px;
+    margin-left: 5px;
+    
+  }
+  .button__home,
+.button__about,
+.button__skills,
+.button__services,
+.button__portfolio,
+.button__contact{
+ 
+  width: 50px;
+  
+}
+
+.button__home{
+  transform: translateX(65px);
+}
+
+}
+
+
+
+
+
+
+
+/* for small devices */
+
+ @media screen and (max-width: 360px) {
+
+  .footer{
+    width: 400px;
+    height: 70px;
+    margin:  auto;
+    padding: 0;
+    position: relative;
+    top: 20px;
+    left: 0;
+    background: linear-gradient(45deg, black, gray, rgb(255, 255, 255));
+    animation: c-animation 10s infinite;
+  }
+
+
+  .footer-container{
+    position: relative;
+    width: 350px;
+    display: grid;
+    grid-template-columns: 1fr 100px 100px 100px 1fr;
+    grid-template-rows: 1fr 1fr;
+    height: 100px;
+  }
+
+  .button__home{
+    position: absolute;
+    top: 10px;
+    left: 5px;
+
+  }
+  .button__about{
+    position: absolute;
+    top: 10px;
+    left: 157px;
+
+  }
+  .button__skills{
+    position: absolute;
+    top: 10px;
+    left: 245px;
+
+  }
+  .button__services{
+    position: absolute;
+    top: 40px;
+    left: 70px;
+    background-color: rgb(12, 12, 12);
+    border: 1.5px solid rgb(250, 250, 250);
+    
+  }
+  .button__portfolio{
+    position: absolute;
+    top: 40px;
+    left: 157px;
+     background-color: rgb(43, 41, 41);
+    border: 1.5px solid rgb(206, 204, 204);
+  }
+  .button__contact{
+    position: absolute;
+    top: 40px;
+    left: 244px;
+    background-color: rgb(75, 73, 73);
+    border: 1.5px solid rgb(172, 169, 169);
+  
+  }
+
+  .button__services-link{
+    color: rgb(247, 243, 243);
+  }
+
+  .button__portfolio-link{
+    color: rgb(212, 209, 209);
+  }
+
+  .button__contact-link{
+    color: rgb(185, 179, 179);
+  }
+  
+  
+
+
+}
+@media screen and (max-width: 350px) {
+
+  .footer-container{
+    width: 350px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    height: 100px;
+  }
+
+
+}  

@@ -5,6 +5,7 @@ import Data from "../home/Data";
 import "../home/styles/home.css";
 import Header from "../shared/Header";
 
+
 const Home = () => {
   return (
     <div className="container">

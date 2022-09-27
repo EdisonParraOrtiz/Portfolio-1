@@ -81,21 +81,25 @@
   
   .contact__card-icon-e{
       position: absolute;
-      font-size: 2rem;
-      top: 70px;
+      font-size: 26px;
+      top: 73px;
       left:40px;
+      
   }
-  .contact__card-icon-w{
+  .contact__card-icon-i{
       position: absolute;
-      font-size: 2rem;
-      top: 158px;
+      font-size: 26px;
+      top: 160px;
       left: 40px;
+      
   }
-  .contact__card-icon-m{
+  .contact__card-icon-l{
       position: absolute;
-      font-size: 2rem;
+      font-size: 26px;
       top: 226px;
       left: 40px;
+      
+     
   }
   
   
@@ -106,13 +110,13 @@
       left: 75px;
       font-size: 18px;
   }
-  .contact__card-title-w{
+  .contact__card-title-i{
       position: absolute;
       top: 146px;
       left: 75px;
       font-size: 18px;
   }
-  .contact__card-title-m{
+  .contact__card-title-l{
       position: absolute;
       top: 213px;
       left: 75px;
@@ -125,12 +129,12 @@
       top: 95px;
       left: 75px;
   }
-  .contact__card-data-w{
+  .contact__card-data-i{
       position: absolute;
       top: 186px;
       left: 75px;
   }
-  .contact__card-data-m{
+  .contact__card-data-l{
       position: absolute;
       top: 249px;
       left: 75px;
@@ -150,7 +154,7 @@
       padding-right: 6px;
   }
   
-  .contact__button-w{
+  .contact__button-i{
       position: absolute;
       top: 204px;
       left: 75px;
@@ -163,7 +167,7 @@
       padding-right: 6px; 
   }
 
-  .contact__button-m{
+  .contact__button-l{
     position: absolute;
     top: 267px;
     left: 75px;
@@ -178,9 +182,9 @@
 }
 
 
-  .contact__button-w:hover,
+  .contact__button-i:hover,
   .contact__button-e:hover,
-  .contact__button-m:hover{
+  .contact__button-l:hover{
     transform: translate(2px);
     transition: 0.2s ease-in-out;
     background-color: rgb(126, 23, 139) ;

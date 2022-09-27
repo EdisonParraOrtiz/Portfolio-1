@@ -8,7 +8,7 @@ import Social from "../home/Social";
 
 const About = () => {
   return (
-    <div className="container">
+    <div id='about' className="container">
       
       <div className="container__full-about">
         <Header/>
@@ -36,9 +36,12 @@ const About = () => {
                 quis.
               </p>
 
-              <a download="" href={CV} className="button__flex-1">
+              <a download="" href={CV}
+              target="blank"
+               className="button__flex-1">
                 {" "}
                 Download CV
+                
                 <svg
                   class="button__icon"
                   xmlns="http://www.w3.org/2000/svg"
