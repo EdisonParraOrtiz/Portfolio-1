@@ -88,13 +88,13 @@
   .contact__card-icon-w{
       position: absolute;
       font-size: 2rem;
-      top: 140px;
+      top: 158px;
       left: 40px;
   }
   .contact__card-icon-m{
       position: absolute;
       font-size: 2rem;
-      top: 210px;
+      top: 226px;
       left: 40px;
   }
   
@@ -108,13 +108,13 @@
   }
   .contact__card-title-w{
       position: absolute;
-      top: 125px;
+      top: 146px;
       left: 75px;
       font-size: 18px;
   }
   .contact__card-title-m{
       position: absolute;
-      top: 195px;
+      top: 213px;
       left: 75px;
       font-size: 18px;
   }
@@ -127,34 +127,66 @@
   }
   .contact__card-data-w{
       position: absolute;
-      top: 165px;
+      top: 186px;
       left: 75px;
   }
   .contact__card-data-m{
       position: absolute;
-      top: 235px;
+      top: 249px;
       left: 75px;
   }
   
   
   .contact__button-e{
       position: absolute;
-      top: 115px;
+      top: 133px;
       left: 75px;
+      background-color: rgb(187, 93, 199);
+      border-radius: 10px;
+      text-decoration: none;
+      color: white;
+      padding: 1px;
+      padding-left: 6px;
+      padding-right: 6px;
   }
   
   .contact__button-w{
       position: absolute;
-      top: 185px;
+      top: 204px;
       left: 75px;
-     
+      background-color: rgb(187, 93, 199);
+      border-radius: 10px;
+      text-decoration: none;
+      color: white;
+      padding: 1px;
+      padding-left: 6px;
+      padding-right: 6px; 
   }
+
   .contact__button-m{
-      position: absolute;
-      top: 255px;
-      left: 75px;
-     
-  }
+    position: absolute;
+    top: 267px;
+    left: 75px;
+    background-color: rgb(187, 93, 199);
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+    padding: 1px;
+    padding-left: 6px;
+    padding-right: 6px;
+   
+}
+
+
+  .contact__button-w:hover,
+  .contact__button-e:hover,
+  .contact__button-m:hover{
+    transform: translate(2px);
+    transition: 0.2s ease-in-out;
+    background-color: rgb(126, 23, 139) ;
+}
+
+  
 
 .contact__title{
     position: absolute;
@@ -248,12 +280,26 @@
     left: 55px;
     height: 25px;
     width: 150px;
+    background-color: rgb(187, 93, 199);
+    border-radius: 10px;
+    text-decoration: none;
+    border: none;
+    color: white;
+    padding: 1px;
+    padding-left: 6px;
+    padding-right: 6px;
+}
+
+.button-send-message:hover{
+    transform: translate(2px);
+    transition: 0.2s ease-in-out;
+    background-color: rgb(126, 23, 139) ;
 }
 
 .button__icon-send-message{
     position: absolute;
     top: 0px;
-    left: 119px
+    left: 119px;
 
 }
 
