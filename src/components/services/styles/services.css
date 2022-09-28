@@ -182,6 +182,14 @@
   font-size: 1.5rem;
   color: black;
   cursor: pointer;
+  background-color: rgb(230, 180, 116);
+  border-radius: 10px;
+}
+
+
+.services__modal-close:hover{
+  background-color: rgb(173, 137, 90);
+  transform: translate(2px);
 }
 
 .services__modal-title,

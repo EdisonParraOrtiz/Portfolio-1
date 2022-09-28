@@ -18,7 +18,7 @@ const About = () => {
       <div className="container__full-about">
         <Header/>
         <Social />
-        <section className="projects__section" id="about">
+        <section className="about__section" id="about">
 
           <h2 className="section__title"> About Me</h2>
           <span className="section__subtitle">My introduction
@@ -30,7 +30,8 @@ const About = () => {
 
             <div className="about__data">
               <p className="about__description">
-                   My goal is to work to achieve the objectives proposed by the company or client and also provide added value in terms of innovation and quality.
+              Developer frontend con experiencia en proyectos utilizando <strong>herramientas tecnológicas  y de diseño a la vanguardia.</strong>. <br />
+              <br />My goal is to work to achieve the objectives proposed by the company or client and also <strong>provide added value in terms of innovation and quality.</strong>
               </p>
 
               <a download="" href={CV}
@@ -47,9 +48,9 @@ const About = () => {
               <div  className={toggleState === 3 ? "about__modal-f active-modal-a"
                  : "services__modal-f" }>
                <div className="about__modal-content-f">
-                 <i onClick={() => toggleTab(0)} className="uil uil-times services__modal-close"></i>
+                 <i onClick={() => toggleTab(0)} className="uil uil-times about__modal-close"></i>
                 {/* onClick={() => toggleTab(0)} */}
-                 <h3 className="about__modal-title"> Fullstack / Developer</h3>
+                
                  <Info />
                  
 
