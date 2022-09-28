@@ -35,13 +35,13 @@ const About = () => {
 
               <a download="" href={CV}
                     target="blank"
-                    className="button__flex-1">
+                    className="button__download-cv">
                     Download CV
               </a>
 
-              <span className="about__button" onClick={() => toggleTab(3)}>
+              <span className="about__button-viewmore" onClick={() => toggleTab(3)}>
                View More
-                <i className="uil uil-arrow-right about__button-icon"></i>
+            
               </span>
               <div  className={toggleState === 3 ? "about__modal-f active-modal-a"
                  : "services__modal-f" }>

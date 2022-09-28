@@ -171,19 +171,19 @@
     margin: 5px;
 }
 
-.button__flex-1{
+.button__download-cv{
 position: absolute;
 width: 95px;
 top: 210px;
-left: 70px;
+left: 74px;
 background-color: rgb(44, 192, 130);
 text-decoration: none;
 color: white;
-padding: 2px 7px 3px 18px;
+padding: 2px 7px 3px 8px;
 border-radius: 10px;
 }
 
-.button__flex-1:hover{
+.button__download-cv:hover{
     transform: translate(4px);
     transform: scale(1.12);
     background-color: rgb(31, 134, 91);
@@ -197,25 +197,21 @@ border-radius: 10px;
 }
 
 
-.about__button{
+.about__button-viewmore{
   position: absolute;
-  width: 95px;
+  width: 82px;
   top: 150px;
-  left: 70px;
+  left: 74px;
   background-color: rgb(48, 245, 163);
   text-decoration: none;
   color: white;
-  padding: 2px 7px 3px 18px;
+  padding: 2px 7px 3px 8px;
   border-radius: 10px;
 }
 
-.about__button-icon{
-  font-size: 1rem;
-  transition: 0.3s;
- 
-}
 
-.about__button:hover{
+
+.about__button-viewmore:hover{
   transform: translateX(00.25rem);
   background-color: rgb(44, 192, 130);
 }

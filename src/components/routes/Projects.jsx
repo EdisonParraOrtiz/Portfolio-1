@@ -24,10 +24,6 @@ const Projects = () => {
                     className="contact__button"
                   >
                     go project
-                    <i
-                      className="bx bx-right-arrow-alt
-                      contact__button_icon"
-                    ></i>
               </a>
  
               <h3 className="project__title-project-p">Pokedex</h3>
@@ -45,10 +41,6 @@ const Projects = () => {
                     className="contact__button"
                   >
                     go project
-                    <i
-                      className="bx bx-right-arrow-alt
-                      contact__button_icon"
-                    ></i>
               </a>
              
               <h3 className="project__title-project-r">Rick and Morty</h3>

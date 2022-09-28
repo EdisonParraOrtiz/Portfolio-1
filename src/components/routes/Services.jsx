@@ -28,8 +28,7 @@ const Services = () => {
               </div>
               {/* onClick={() => toggleTab(1)} */}
               <span className="services__button" onClick={() => toggleTab(1)}>
-                View More{" "}
-                <i className="uil uil-arrow-right services__button-icon"></i>
+                View More
               </span>
               {/* className={toggleState === 1 ? "services__modal active-modal" : "services__modal"} */}
               <div
@@ -97,8 +96,7 @@ const Services = () => {
               </div>
 
               <span className="services__button" onClick={() => toggleTab(2)}>
-                View More{" "}
-                <i className="uil uil-arrow-right services__button-icon"></i>
+                View More
               </span>
 
               <div
