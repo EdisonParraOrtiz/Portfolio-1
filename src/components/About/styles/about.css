@@ -202,6 +202,88 @@ position: absolute;
 }
 
 
+.about__button{
+  position: absolute;
+  width: 95px;
+  top: 140px;
+  left: 70px;
+  background-color: rgb(230, 180, 116);
+  text-decoration: none;
+  color: white;
+  padding: 2px 7px 3px 18px;
+  border-radius: 10px;
+}
+
+.about__button-icon{
+  font-size: 1rem;
+  transition: 0.3s;
+ 
+}
+
+.about__button:hover{
+  transform: translateX(00.25rem);
+  background-color:rgb(189, 155, 111); ;
+}
+
+.about__modal-f{
+ display: none;
+ position: relative;
+ top: 0px;
+ left: 0;
+ right: 0;
+ bottom: 0;
+ background-color: rgba(0, 0, 0, 0.5);
+ z-index: initial;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ padding: 0 1rem;
+ opacity: 0;
+ visibility:hidden;
+ transition: .3s;
+}
+
+
+.about__modal-content-f{
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  background: url("../../../../public/images/frame-left-06-modal.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: rgb(255, 255, 255);
+  padding: 40px 20px 40px 10px; 
+  top: -60px;
+  left: 0px;
+  
+}
+
+.about__modal-close{
+  position: absolute;
+  top: 1.5rem;
+  right: 1.5rem;
+  font-size: 1.5rem;
+  color: black;
+  cursor: pointer;
+}
+
+.about__modal-title,
+.about__modal-description{
+  text-align: center;
+}
+
+.about__modal-title{
+  font-size: 20px;
+  font-weight: normal;
+  margin-bottom: 5px;
+}
+
+
+.active-modal-a{
+  opacity: 1;
+  visibility: visible;
+}
+
 
 @media screen and (max-width: 768px) {
 
