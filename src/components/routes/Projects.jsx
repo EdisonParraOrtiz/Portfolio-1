@@ -23,7 +23,7 @@ const Projects = () => {
                     href="https://pokedex-edison.netlify.app/" target="blank"
                     className="contact__button"
                   >
-                    go project{" "}
+                    go project
                     <i
                       className="bx bx-right-arrow-alt
                       contact__button_icon"
@@ -44,7 +44,7 @@ const Projects = () => {
                     href="https://rick-and-morty-edison.netlify.app/" target="blank"
                     className="contact__button"
                   >
-                    go project{" "}
+                    go project
                     <i
                       className="bx bx-right-arrow-alt
                       contact__button_icon"
