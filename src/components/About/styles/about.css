@@ -163,18 +163,18 @@
 
 .about__description{
     position: absolute;
-    top: 10px;
-    left: 20px;
-    width: 210px;
+    top: 20px;
+    left: 18px;
+    width: 200px;
     font-size: 16px;
     text-align: justify;
-    margin: 2px;
+    margin: 5px;
 }
 
 .button__flex-1{
 position: absolute;
 width: 95px;
-top: 250px;
+top: 210px;
 left: 70px;
 background-color: rgb(44, 192, 130);
 text-decoration: none;
@@ -200,7 +200,7 @@ border-radius: 10px;
 .about__button{
   position: absolute;
   width: 95px;
-  top: 220px;
+  top: 150px;
   left: 70px;
   background-color: rgb(48, 245, 163);
   text-decoration: none;

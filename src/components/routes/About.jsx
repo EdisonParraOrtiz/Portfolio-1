@@ -30,8 +30,7 @@ const About = () => {
 
             <div className="about__data">
               <p className="about__description">
-              Developer frontend con experiencia en proyectos utilizando <strong>herramientas tecnológicas  y de diseño a la vanguardia.</strong>. <br />
-              <br />My goal is to work to achieve the objectives proposed by the company or client and also <strong>provide added value in terms of innovation and quality.</strong>
+              My goal is to work to achieve the objectives proposed by the company or client and also <strong>provide added value in terms of innovation and quality.</strong>
               </p>
 
               <a download="" href={CV}
