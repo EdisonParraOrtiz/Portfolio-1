@@ -91,14 +91,15 @@
 
 .services__button{
   position: absolute;
-  width: 82px;
+  width: 78px;
   top: 140px;
-  left: 74px;
+  left: 89px;
   background-color: rgb(230, 180, 116);
   text-decoration: none;
   color: white;
-  padding: 2px 7px 3px 8px;
+  padding: 2px 0px 3px 10px;
   border-radius: 10px;
+  font-size: 14px;
 }
 
 .services__button-icon{

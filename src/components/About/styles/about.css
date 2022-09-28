@@ -172,15 +172,16 @@
 }
 
 .button__download-cv{
-position: absolute;
-width: 95px;
-top: 210px;
-left: 74px;
-background-color: rgb(44, 192, 130);
-text-decoration: none;
-color: white;
-padding: 2px 7px 3px 8px;
-border-radius: 10px;
+  position: absolute;
+  width: 87px;
+  top: 199px;
+  left: 75px;
+  background-color: rgb(48, 245, 163);
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  padding: 2px 0px 3px 10px;
+  border-radius: 10px;
+  font-size: 14px;
 }
 
 .button__download-cv:hover{
@@ -199,14 +200,16 @@ border-radius: 10px;
 
 .about__button-viewmore{
   position: absolute;
-  width: 82px;
+  width: 72px;
   top: 150px;
-  left: 74px;
+  left: 84px;
   background-color: rgb(48, 245, 163);
   text-decoration: none;
-  color: white;
-  padding: 2px 7px 3px 8px;
+  color: rgb(255, 255, 255);
+  padding: 2px 0px 3px 10px;
   border-radius: 10px;
+  font-size: 14px;
+  
 }
 
 
