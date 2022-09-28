@@ -23,7 +23,7 @@ const Projects = () => {
                     href="https://pokedex-edison.netlify.app/" target="blank"
                     className="contact__button"
                   >
-                    go project
+                    See project
               </a>
  
               <h3 className="project__title-project-p">Pokedex</h3>
@@ -40,7 +40,7 @@ const Projects = () => {
                     href="https://rick-and-morty-edison.netlify.app/" target="blank"
                     className="contact__button"
                   >
-                    go project
+                    See project
               </a>
              
               <h3 className="project__title-project-r">Rick and Morty</h3>
