@@ -119,11 +119,12 @@
   width: 200px;
   top: 170px;
   left: 28px;
-  font-size: 16px;
+  font-size: 14px;
   text-align: justify;
   max-width: 400px;
   margin-bottom: var(--mb-2);
   text-align: justify;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .button__flex{
