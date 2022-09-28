@@ -2,8 +2,8 @@ import React from "react";
 import Social from "../home/Social";
 import "../Projects/styles/project.css";
 import Header from "../shared/Header";
-import ImagenProjectone from'../../../public/images/poject-pokedex.png'
-import ImagenProjecttwo from'../../../public/images/project-rickandmorty.png'
+import Pokedex from'../../../public/images/Pokedex.jpg'
+import RickAndMorty from'../../../public/images/Rickandmorty.jpg'
 
 const Projects = () => {
   return (
@@ -18,7 +18,7 @@ const Projects = () => {
 
           <div className="projects-container">
             <div className="project__container-left">
-              <a href="https://pokedex-edison.netlify.app/"target="blank" ><img  className="project__imagen-1" src={ImagenProjectone}alt="imagen project" /></a>
+              <a href="https://pokedex-edison.netlify.app/"target="blank" ><img  className="project__imagen-1" src={Pokedex}alt="imagen project" /></a>
               <a
                     href="https://pokedex-edison.netlify.app/" target="blank"
                     className="contact__button"
@@ -38,7 +38,7 @@ const Projects = () => {
             
             <div className="project__container-right">
              <a href="https://rick-and-morty-edison.netlify.app/">
-               <img  className="project__imagen-2" src={ImagenProjecttwo}alt="imagen project" />
+               <img  className="project__imagen-2" src={RickAndMorty}alt="imagen project" />
              </a>
              <a
                     href="https://rick-and-morty-edison.netlify.app/" target="blank"
