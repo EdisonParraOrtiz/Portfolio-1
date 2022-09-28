@@ -56,7 +56,7 @@ const Data = () => {
                   ></path>
           </svg></div>
         <h3 className="home__subtitle">Frontend Developer <br /> and Designer</h3>
-        <p className="home__description">Lorem ipsum dolor sit amet consectetur adipisicing elit.adipisicing elit dull aaaaaa </p>
+        <p className="home__description">I am open to  <strong> new proposals for projects and jobs</strong>  . My goal is to work <strong>to achieve the objectives proposed </strong>by the company or client.</p>
         {/* <a href="#contact" className="button__flex">
             <h3  className="hello">Say Hello</h3> 
             <svg

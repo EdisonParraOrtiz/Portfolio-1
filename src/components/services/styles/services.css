@@ -91,12 +91,14 @@
 
 .services__button{
   position: absolute;
-  display: inline-flex;
-  align-items: center;
-  column-gap: 0.25rem;
-  cursor: pointer;
-  left: 90px;
-  top: 135px;
+  width: 95px;
+  top: 140px;
+  left: 70px;
+  background-color: rgb(230, 180, 116);
+  text-decoration: none;
+  color: white;
+  padding: 2px 7px 3px 18px;
+  border-radius: 10px;
 }
 
 .services__button-icon{
@@ -105,8 +107,9 @@
  
 }
 
-.services__button:hover,.services__button-icon{
+.services__button:hover{
   transform: translateX(00.25rem);
+  background-color:rgb(189, 155, 111); ;
 }
 
 .services__modal-f{

@@ -2,7 +2,8 @@ import React from "react";
 import Social from "../home/Social";
 import "../Projects/styles/project.css";
 import Header from "../shared/Header";
-import ImagenProject from'../../../public/images/imagen-project.png'
+import ImagenProjectone from'../../../public/images/poject-pokedex.png'
+import ImagenProjecttwo from'../../../public/images/project-rickandmorty.png'
 
 const Projects = () => {
   return (
@@ -17,22 +18,42 @@ const Projects = () => {
 
           <div className="projects-container">
             <div className="project__container-left">
-              <img  className="project__imagen-1" src={ImagenProject}alt="imagen project" />
-              
-              <h3 className="project__title-project">Project 1</h3>
+              <a href="https://pokedex-edison.netlify.app/"target="blank" ><img  className="project__imagen-1" src={ImagenProjectone}alt="imagen project" /></a>
+              <a
+                    href="https://pokedex-edison.netlify.app/" target="blank"
+                    className="contact__button"
+                  >
+                    go project{" "}
+                    <i
+                      className="bx bx-right-arrow-alt
+                      contact__button_icon"
+                    ></i>
+              </a>
+ 
+              <h3 className="project__title-project-p">Pokedex</h3>
               <p className="project__description">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam,
-               
-              
+                Using Reactjs redux  <br />  consuming an API
               </p>
             </div>
             
             <div className="project__container-right">
-             <img  className="project__imagen-2" src={ImagenProject}alt="imagen project" />
+             <a href="https://rick-and-morty-edison.netlify.app/">
+               <img  className="project__imagen-2" src={ImagenProjecttwo}alt="imagen project" />
+             </a>
+             <a
+                    href="https://rick-and-morty-edison.netlify.app/" target="blank"
+                    className="contact__button"
+                  >
+                    go project{" "}
+                    <i
+                      className="bx bx-right-arrow-alt
+                      contact__button_icon"
+                    ></i>
+              </a>
              
-              <h3 className="project__title-project">Project 1</h3>
+              <h3 className="project__title-project-r">Rick and Morty</h3>
               <p className="project__description">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam,
+                   Using Reactjs axios  <br />  consuming an API
                 
               </p>
             </div>

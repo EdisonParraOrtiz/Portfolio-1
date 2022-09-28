@@ -136,7 +136,13 @@
   .logo-name-n{
     position: absolute;
     left: 80px;
-    top:  60px;
+    top:  50px;
+    width: 300px;
+  }
+  .logo-name-p{
+    position: absolute;
+    left: 80px;
+    top:  110px;
     width: 300px;
   }
 
@@ -146,7 +152,8 @@
   .logo-name-r i,
   .logo-name-j i,
   .logo-name-n i,
-  .logo-name-m i{
+  .logo-name-m i,
+  .logo-name-p i{
     position: absolute;
     top: 63px;
     left: -45px;
@@ -156,7 +163,8 @@
     .logo-name-r h3,
     .logo-name-j h3,
     .logo-name-n h3,
-    .logo-name-m h3
+    .logo-name-m h3,
+    .logo-name-p h3
     {
         position: absolute;
         top: 40px;
@@ -170,7 +178,8 @@
     .skills__level-j,
     .skills__level-r,
     .skills__level-n,
-    .skills__level-m{
+    .skills__level-m,
+    .skills__level-p{
         position: absolute;
         top: 80px;
         left:-24px;  

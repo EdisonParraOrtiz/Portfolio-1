@@ -10,7 +10,7 @@ const Social = () => {
           <a className="button__content-instagram"
             href="https://www.instagram.com/edison.parr.a/"
             
-            target="_blank"
+            target="blank"
           >
             <i class="uil uil-instagram  icono__red-social"></i>
           </a>

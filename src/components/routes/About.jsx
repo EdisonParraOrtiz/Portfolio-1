@@ -1,7 +1,7 @@
 import React from "react";
 import "../About/styles/about.css";
 import AboutImg from "../../../public/images/about.jpg";
-import CV from "../../../public/images/John-Cv.pdf";
+import CV from "../../../public/images/Edison Parra-Cv.pdf";
 import Info from "../About/Info";
 import Header from "../shared/Header";
 import Social from "../home/Social";
@@ -31,9 +31,7 @@ const About = () => {
             <div className="about__data">
               <Info />
               <p className="about__description">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                Debitis maiores hic voluptate,  excepturi voluptas fugit
-                quis.
+              My goal is to work to achieve the objectives proposed by the company or client and also provide added value in terms of innovation and quality.
               </p>
 
               <a download="" href={CV}
