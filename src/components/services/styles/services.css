@@ -15,12 +15,12 @@
   width: 900px;
   height: 74vh;
   background: url("../../../../public/images/background-06-06.png");
-  border-right: 20px solid black;
-  border-left:  20px solid black ; 
-  border-bottom: 20px solid black;
+  border-right: 15px solid black;
+  border-left:  15px solid black ; 
+  border-bottom: 15px solid black;
   border-top: none;
   box-shadow: 0px 0px 5px solid gray inset;
-  left: 40px;
+  left: 45px;
   top: 40px;
 }
 
