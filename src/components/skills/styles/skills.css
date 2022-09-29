@@ -54,6 +54,10 @@
 
 }
 
+.skills__content-frontend:hover {
+  transform: translatey(5px); 
+}
+
 
 .skills__content-backend{
     position: absolute;
@@ -66,6 +70,10 @@
     top: 93px;
     right: 70px;
 
+}
+
+.skills__content-backend:hover {
+  transform: translatey(5px); 
 }
 
 .skills__group{

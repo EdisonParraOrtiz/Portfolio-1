@@ -55,6 +55,10 @@
 }
 
 
+.contact__content-cards:hover {
+    transform: translatey(5px); 
+  }
+
 .services__icon{
     position: absolute;
     display: block;
@@ -210,6 +214,10 @@
   top: 93px;
  
 }
+
+.contact__content-form:hover {
+    transform: translatey(5px); 
+  }
 
 .contact__title-f{
     position: absolute;

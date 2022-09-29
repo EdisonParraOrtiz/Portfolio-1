@@ -76,6 +76,10 @@
     top: 93px;
 }
 
+.about__img:hover {
+  transform: translatey(5px); 
+}
+
 .perf-img{
     position: absolute;
     background:url("../../../../public/images/about-imagen-perfil.png");
@@ -99,6 +103,12 @@
     height: 306px;
    
 }
+
+.about__data:hover {
+  transform: translatey(5px); 
+}
+
+
 
 
 
